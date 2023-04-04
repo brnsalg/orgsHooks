@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "npx react-native run-android",
-    "ios": "npx react-native run-ios",
-    "start": "npx react-native start",
+    "android": "NODE_OPTIONS=--openssl-legacy-provider npx react-native run-android",
+    "ios": "NODE_OPTIONS=--openssl-legacy-provider npx react-native run-ios",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider npx react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
